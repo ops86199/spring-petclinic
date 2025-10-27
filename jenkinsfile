@@ -5,7 +5,7 @@ pipeline {
         REGISTRY = "ops86199"
         IMAGE_NAME = "spring-petclinic"
     }
-
+g
     stages {
         stage('Checkout') {
             steps {
